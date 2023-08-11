@@ -19,7 +19,7 @@ const ENV_DATA:envData = {
 
 
 const ContactForm = () => {
-    const formRef = useRef()
+    const formRef = useRef<HTMLFormElement | null>(null)
     const [form, setForm] = useState({
         name: '',
         email: '',
@@ -35,7 +35,7 @@ const ContactForm = () => {
         })
         
       }
-    const handleSubmit = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
         setLoading(true);
         emailjs.send(
