@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-      <footer className='w-full text-white bg-color-bg flex flex-col'>
+      <footer className='w-full text-white bg-color-bg flex flex-col text-sm xl:text-base'>
           <div className='flex justify-center items-center gap-8'>
           {navLinks.map((navLink) => 
               <Link key={navLink.id} href={navLink.address}>
