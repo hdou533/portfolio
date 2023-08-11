@@ -1,10 +1,11 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+// import { Inter } from 'next/font/google'
 import Header from './../components/Header';
 import Footer from './../components/Footer';
+import { poppins } from './fonts';
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Sally Dou | Frontend Developer',
@@ -18,10 +19,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={poppins.className}>
         
         <Header />
-        {children}
+        <div className='w-full bg-color-bg h-[calc(100vh-1rem)] text-white'>
+          {children}
+        </div>
+        
         <Footer />
       </body>
     </html>

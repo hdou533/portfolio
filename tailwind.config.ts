@@ -11,7 +11,10 @@ const config: Config = {
       colors: {
         'color-bg': '#081229',
         'color-btn-blue': '#191d3a',
-     },
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [],
