@@ -27,7 +27,7 @@ const ContactForm = () => {
     })
     const [loading, setLoading] = useState(false);
     
-    const handleChange = (e) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value } = e.target
         setForm({
             ...form,
@@ -35,7 +35,7 @@ const ContactForm = () => {
         })
         
       }
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         e.preventDefault()
         setLoading(true);
         emailjs.send(
