@@ -18,7 +18,7 @@ const ENV_DATA:envData = {
 
 
 
-const ContactForm = () => {
+const ContactForm = ({title='Contact'}) => {
     const formRef = useRef<HTMLFormElement | null>(null)
     const [form, setForm] = useState({
         name: '',
@@ -72,7 +72,7 @@ const ContactForm = () => {
       <div className='text-white flex flex-col justify-center items-center'>
         
             <div className='text-center'>
-                <h1 className='text-2xl font-bold underline decoration-pink-600 underline-offset-8'>Contact</h1>
+          <h1 className='text-2xl font-bold underline decoration-pink-600 underline-offset-8'>{ title }</h1>
             </div>
             <form ref={formRef} onSubmit={handleSubmit} className='flex flex-col gap-8 p-8 w-full sm:w-[512px]'>
             
