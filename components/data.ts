@@ -26,3 +26,13 @@ export const navLinks = [
         address: "/contact"
     },
 ]
+
+export const images = [
+    '/hobby_2.jpg',
+    '/hobby_1.jpg',
+    '/hobby_3.jpg',
+    '/hobby_4.jpg',
+    '/hobby_5.jpg',
+    '/hobby_6.jpg',
+    '/hobby_7.jpg',
+]
