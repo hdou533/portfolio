@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { experience } from '@/components/data'
+import { experience } from '@/libs/data'
 
 
 const Resume = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { images } from '@/components/data'
+import { images } from '@/libs/data'
 
 const About = () => {
   return (
