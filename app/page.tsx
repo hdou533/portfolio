@@ -6,7 +6,7 @@ import Projects from './../components/Projects';
 
 export default function Home() {
   return (
-    <div className='bg-color-bg h-[100vh] w-full'>
+    <div className='bg-color-bg w-full'>
       <Hero />
       <Skills />
       <Projects />

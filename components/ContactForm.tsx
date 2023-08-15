@@ -72,47 +72,50 @@ const ContactForm = ({title='Contact'}) => {
       <div className='text-white flex flex-col justify-center items-center'>
         
             <div className='text-center'>
-          <h1 className='text-2xl font-bold underline decoration-pink-600 underline-offset-8'>{ title }</h1>
-            </div>
-            <form ref={formRef} onSubmit={handleSubmit} className='flex flex-col gap-8 p-8 w-full sm:w-[512px]'>
+              <h1 className='text-2xl font-bold underline decoration-pink-600 underline-offset-8 uppercase'>{ title }</h1>
+        </div>
+        <div className='my-16 w-full flex justify-center'>
+          <form ref={formRef} onSubmit={handleSubmit} className='flex flex-col gap-8 px-8 w-full sm:w-[512px]'>
+              
+              <input
+                type='text'
+                name='name'
+                value={form.name}
+                onChange={handleChange}
+                placeholder="What's your good name?"
+                      className='border shadow-sm placeholder-slate-400 rounded-md px-3 py-2'
+                      required
+              />
             
-            <input
-              type='text'
-              name='name'
-              value={form.name}
-              onChange={handleChange}
-              placeholder="What's your good name?"
-                    className='border shadow-sm placeholder-slate-400 rounded-md px-3 py-2'
-                    required
-            />
+              <input
+                type='email'
+                name='email'
+                value={form.email}
+                onChange={handleChange}
+                placeholder="What's your email address?"
+                      className='border shadow-sm placeholder-slate-400 rounded-md px-3 py-2'
+                      required
+              />
           
-            <input
-              type='email'
-              name='email'
-              value={form.email}
-              onChange={handleChange}
-              placeholder="What's your email address?"
-                    className='border shadow-sm placeholder-slate-400 rounded-md px-3 py-2'
-                    required
-            />
-         
-            <textarea
-              rows={7}
-              name='message'
-              value={form.message}
-              onChange={handleChange}
-              placeholder='What you want to say?'
-                    className='border shadow-sm placeholder-slate-400 rounded-md px-3 py-2'
-                    required
-            />
-          
+              <textarea
+                rows={7}
+                name='message'
+                value={form.message}
+                onChange={handleChange}
+                placeholder='What you want to say?'
+                      className='border shadow-sm placeholder-slate-400 rounded-md px-3 py-2'
+                      required
+              />
+            
 
-          <button
-            type='submit'
-            className='w-full p-2 border border-pink-600'
-                >{loading ? "Sending..." : "Send"}
-                    </button>
-            </form>
+            <button
+              type='submit'
+              className='w-full p-2 border border-pink-600'
+                  >{loading ? "Sending..." : "Send"}
+                      </button>
+              </form>
+        </div>
+            
       </div>
     
   );
