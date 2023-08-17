@@ -43,76 +43,80 @@ export const experience = [
         title: "Software Developer",
         organisation: "SmartLeader",
         year: "2022.06 - 2023.04",
-        desc: "",
+        desc: "At Smartleader, my role encompasses maintaining and enhancing the online training and development app. I am responsible for tasks such as app maintenance, feature development, debugging, upgrades including PHP version updates, and unit testing.",
+        tech: ["PHP", "JavaScript", "JQuery","BootSstrap","Unit Testing", "Git", "GitKraken", "MySQL","MAMP","Jira","Scrum"]
     },
     {
         title: "Digital Marketing Specialist",
         organisation: "New Zealand Business Association",
         year: "2021.10 - 2022.06",
-        desc: "",
+        desc: "At NZBA, I play a multifaceted role that involves interacting closely with clients to grasp their unique requirements. My responsibilities encompass crafting and building WordPress websites that align with these needs, ensuring a tailored online solution. Additionally, I collaborate seamlessly with colleagues to orchestrate comprehensive digital marketing campaigns, bolstering our clients' digital presence and driving their business growth.",
+        tech: ["WordPress", "JavaScript","CSS","HTML","Digital Marketing","Google SEO"],
     },
     {
         title: "IT Support",
         organisation: "Siaola - Lifewise NZ",
         year: "2021.03 - 2021.05",
-        desc: "",
+        desc: "In my role, I provide technical support and training to SIAOLA, a Charitable Trust supporting education, health, and socio-development for Togan communities in New Zealand. I assist them in effectively using their Content Management System (CMS) application. This involves guiding them in creating, editing, and managing data, handling media, and ensuring security measures. Through training sessions and ongoing support, I empower SIAOLA's team to confidently manage their system and make the most of their online presence.",
+        tech: ["CMS", "Noted CMS", "Power BI", "Training"]
     },
     {
         title: "Master of Information Technology",
         organisation: "University of Auckland",
         year: "2019.07 - 2021.06",
-        desc: "",
+        desc: "During my Master's degree in IT, I refined my skills, focusing on key areas such as data analysis, data modeling, and security. These specialized proficiencies have equipped me with a comprehensive understanding of crucial aspects within the IT landscape.",
+        tech: ["Python", "scikit-learn", "Data Modeling"]
     },
 ]
 
 export const skills = [
     {
-        title: 'nextjs',
-        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg',
+        title: 'javascript',
+        img: '/skills/javascript.png',
     },
     {
         title: 'react',
-        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+        img: '/skills/reactjs.png',
     },
     {
-        title: 'javascript',
-        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+        title: 'nextjs',
+        img: '/skills/nextjs.svg',
     },
     {
         title: 'tailwind',
-        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg',
-    },
-    {
-        title: 'css',
-        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg',
-    },
-    {
-        title: 'html5',
-        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg',
-    },
-    {
-        title: 'git',
-        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
+        img: '/skills/tailwind.png',
     },
     {
         title: 'github',
-        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg',
+        img: '/skills/github.svg',
+    },
+    {
+        title: 'css',
+        img: '/skills/css.png',
+    },
+    {
+        title: 'html5',
+        img: '/skills/html.png',
+    },
+    {
+        title: 'git',
+        img: '/skills/git.png',
     },
     {
         title: 'nodejs',
-        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
+        img: '/skills/nodejs.png',
     },
     {
         title: 'php',
-        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg',
+        img: '/skills/php.png',
     },
     {
         title: 'postgresql',
-        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg',
+        img: '/skills/postgresql.png',
     },
     {
         title: 'jira',
-        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original-wordmark.svg',
+        img: '/skills/jira.png',
     },
 ]
 

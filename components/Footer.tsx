@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-      <footer className='w-full text-white bg-color-bg flex flex-col text-sm xl:text-base'>
+      <footer className='w-full text-white bg-background flex flex-col text-sm xl:text-base py-24'>
           <div className='flex justify-center items-center gap-8'>
           {navLinks.map((navLink) => 
               <Link key={navLink.id} href={navLink.address}>
@@ -13,11 +13,11 @@ const Footer = () => {
          )}
           </div>
           
-         <hr className='border-t border-pink-600 my-4 mx-auto w-5/6'/>
+         <hr className='border-t border-light-pink my-4 mx-auto w-5/6'/>
    
-          <div className='flex justify-center items-center text-xs mb-24'>
+          <div className='flex justify-center items-center text-xs '>
               <p> A project by Sally &copy; 2023 | Follow me on &nbsp;
-                  <a href="https://github.com/hdou533" target="_blank" className='hover:text-pink-600'>
+                  <a href="https://github.com/hdou533" target="_blank" className='hover:text-secondary'>
                   @github
                   </a>
               </p>

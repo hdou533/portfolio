@@ -72,7 +72,7 @@ const ContactForm = ({title='Contact'}) => {
       <div className='text-white flex flex-col justify-center items-center'>
         
             <div className='text-center'>
-              <h1 className='text-2xl font-bold underline decoration-pink-600 underline-offset-8 uppercase'>{ title }</h1>
+              <h1 className='text-3xl lg:text-5xl font-bold underline decoration-secondary underline-offset-8 uppercase'>{ title }</h1>
         </div>
         <div className='my-16 w-full flex justify-center'>
           <form ref={formRef} onSubmit={handleSubmit} className='flex flex-col gap-8 px-8 w-full sm:w-[512px]'>
@@ -110,7 +110,7 @@ const ContactForm = ({title='Contact'}) => {
 
             <button
               type='submit'
-              className='w-full p-2 border border-pink-600'
+              className='w-full p-2 border uppercase text-lg bg-light-pink rounded-sm border-light-pink hover:bg-secondary'
                   >{loading ? "Sending..." : "Send"}
                       </button>
               </form>

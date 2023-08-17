@@ -12,7 +12,7 @@ interface CardProps {
 
 const ProjectCard:React.FC<CardProps> = ({title, desc, demolink, codelink, thumbnail}) => {
   return (
-      <div className='w-[80vw] h-96 border border-pink-600 border-y-2 sm:w-[340px] '>
+      <div className='w-[80vw] h-96 border border-pink-600 border-b-2 sm:w-[340px] '>
           <div className='relative w-full h-[60%]'>
               <Image src={thumbnail} fill className='object-cover' alt=''/>
           </div>
