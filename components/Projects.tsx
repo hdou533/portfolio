@@ -6,11 +6,11 @@ import ProjectCard from './ProjectCard'
 const Projects = () => {
   return (
 
-      <div className='w-full text-white flex flex-col justify-center'>
+      <div className='w-full text-white flex flex-col justify-center items-center'>
         <div className='text-center'>
             <h1 className='uppercase text-3xl font-bold underline decoration-secondary underline-offset-8 lg:text-5xl'>Projects</h1>
         </div>
-        <div className='flex flex-wrap gap-8 justify-center items-center my-16'>
+        <div className='flex flex-wrap gap-8 justify-center items-center my-16 md:w-2/3 xl:w-1/2'>
           {projects.map(project =>
             
             <ProjectCard
