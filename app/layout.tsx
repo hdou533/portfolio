@@ -8,7 +8,7 @@ import { poppins } from './fonts';
 // const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Sally Dou | Frontend Developer',
+  title: 'Sally Dou | Software Developer | Frontend Specialist | UX Design Enthusiast',
   description: 'Welcome to Sally\'s Portfoio',
 }
 
@@ -23,7 +23,7 @@ export default function RootLayout({
         
         <Header />
 
-        <div className='w-full bg-color-bg text-white flex flex-col justify-center items-center '>
+        <div className='w-full bg-background text-white flex flex-col justify-center items-center '>
 
           {children}
         </div>

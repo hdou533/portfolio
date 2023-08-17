@@ -9,11 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'color-bg': '#081229',
-        'color-btn-blue': '#191d3a',
+        'background': '#081229',
+        'btn-blue': '#191d3a',
+        'primary': '#0e101c',
+        'secondary': '#bf1650',
+        'light-pink': '#ec5990',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
+      },
+      rotate: {
+        '135': '135deg',
       },
     },
   },
