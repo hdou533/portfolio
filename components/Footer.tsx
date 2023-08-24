@@ -17,7 +17,7 @@ const Footer = () => {
    
           <div className=' text-xs text-center'>
               
-                  A project by Sally &copy; 2023 | Follow me on
+                  A project by Sally &copy; 2023. Follow me on
                   <a href="https://github.com/hdou533" target="_blank" className='hover:text-secondary mx-1'>
                   @github 
                   </a>

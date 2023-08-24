@@ -17,6 +17,7 @@ const config: Config = {
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
+        londrina: ['Lobster', 'cursive', 'Londrina Outline', 'cursive', 'Poppins', 'sans-serif'],
       },
       rotate: {
         '135': '135deg',
