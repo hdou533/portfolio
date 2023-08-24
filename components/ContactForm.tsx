@@ -69,10 +69,10 @@ const ContactForm = ({title='Contact'}) => {
       }
 
     return (
-      <div className='text-white flex flex-col justify-center items-center'>
+      <div className='text-black/80 flex flex-col justify-center items-center'>
         
             <div className='text-center'>
-              <h1 className='text-3xl lg:text-5xl font-bold underline decoration-secondary underline-offset-8 uppercase'>{ title }</h1>
+              <h1 className='text-white text-3xl lg:text-5xl font-bold underline decoration-secondary underline-offset-8 uppercase'>{ title }</h1>
         </div>
         <div className='my-16 w-full flex justify-center'>
           <form ref={formRef} onSubmit={handleSubmit} className='flex flex-col gap-8 px-8 w-full sm:w-[512px]'>

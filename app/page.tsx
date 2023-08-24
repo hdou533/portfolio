@@ -6,7 +6,7 @@ import Projects from './../components/Projects';
 
 export default function Home() {
   return (
-    <div className='bg-background w-full'>
+    <div className='bg-background w-full scroll-smooth snap-y'>
       <Hero />
       <Skills />
       <Projects />

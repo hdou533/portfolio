@@ -7,24 +7,33 @@ interface CardProps {
     desc: string,
     demolink: string,
     codelink: string,
-    thumbnail: string
+    thumbnail: string,
+    tech:string[],
 }
 
-const ProjectCard:React.FC<CardProps> = ({title, desc, demolink, codelink, thumbnail}) => {
+const ProjectCard:React.FC<CardProps> = ({title, desc, demolink, codelink, thumbnail, tech}) => {
   return (
-      <div className='w-[80vw] h-96 border border-pink-600 border-b-2 sm:w-[340px] '>
-          <div className='relative w-full h-[60%]'>
-              <Image src={thumbnail} fill className='object-cover' alt=''/>
-          </div>
-          <div className='flex flex-col gap-2 p-4'>
-              <h2 className='text-lg font-bold'>{title}</h2>
-              <p className='h-12 overflow-hidden'>{desc}</p>
-              <div className='underline flex gap-4 underline-offset-4'>
-                  <Link href={demolink}><span>demo</span></Link>
-                  <Link href={codelink}><span>code</span></Link>
+      <div className='w-full h-[480px] flex flex-col justify-center items-center rounded-lg sm:flex-row sm:w-[520px] sm:h-[260px]  bg-btn-blue drop-shadow-md gap-4 sm:px-8 sm:gap-8'>
+          <div className='relative w-[80%] h-[240px] sm:flex-1 sm:h-[80%]'>
+              <Image src={thumbnail} fill alt='' className='object-cover opacity-70 rounded-lg'/>
+          </div> 
+          <div className='flex flex-col gap-2 w-[80%] sm:flex-1'>
+              
+              <h2 className='font-bold text-lg text-secondary'>{title}</h2>
+              <p>{desc}</p>
+              <div className='underline underline-offset-4'>
+                  <a href={demolink} className=' hover:text-light-pink mr-4'><span>demo</span></a>
+                  <a href={codelink}><span className='hover:text-light-pink mr-4'>code</span></a>
+                  
+                  
+              </div>
+              <div className='flex flex-wrap'>
+                  {tech && tech.map(item => (
+                      <span className='bg-white/50 mr-4 mt-4' key={item}>{ item }</span>
+                  ))}
               </div>
           </div>
-    </div>
+      </div>
 
   )
 }
