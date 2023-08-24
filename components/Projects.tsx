@@ -13,9 +13,9 @@ const Projects = () => {
         </div>
         <div className='my-12 p-8 grid grid-cols-1 lg:grid-cols-2 gap-10'>
         {projects.map(project =>
-          <Link key={project.title} href="/" className='w-full flex justify-center'>
+          
             <ProjectCard
-              
+                key={project.title}
                 title={project.title}
                 desc={project.desc}
                 demolink={project.demolink}
@@ -23,7 +23,7 @@ const Projects = () => {
                 thumbnail={project.thumbnail}
                 tech={project.tech}
               />
-          </Link>
+        
             
             
           

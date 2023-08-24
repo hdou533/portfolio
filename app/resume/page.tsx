@@ -1,11 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 import { experience } from '@/libs/data'
+import ResumeCard from '@/components/ResumeCard'
 
 
 const Resume = () => {
   return (
-    <div className='w-full max-w-screen-lg h-auto text-justify flex flex-col justify-center items-center gap-8 mb-16 lg:w-[80%] xl:w-[60%]'>
+    <div className='w-full max-w-screen-lg h-auto text-left flex flex-col justify-center items-center gap-8 mb-16 lg:w-[80%] xl:w-[60%]'>
       
       <div className='flex flex-col gap-8 p-8'>
         <Image src="/code-alt-regular-48.png" width={48} height={48} alt='' />
@@ -21,17 +22,10 @@ const Resume = () => {
 
           {
             experience.map(item => (
-              <div key={`${item.title}-${item.organisation}`} className='my-8'>
-                <h1 className='text-lg underline decoration-pink-600 underline-offset-8 mb-2'>{ item.title}</h1>
-                <p>{ item.organisation}</p>
-                <p className='text-sm'>{ item.year}</p>
-                <p className='rouned-md my-8 p-8 border-1 bg-primary w-full h-40 overflow-y-auto'>{item.desc}</p>
-                <div className='flex gap-2 flex-wrap'>
-                  {item.tech.map((t, index) => (
-                  <span key={`tech_${index}`} className='p-1 bg-btn-blue border-grey-100'>{t}</span>
-                  ))}
-                </div>
+              <div className='' key={`${item.title}-${item.organisation}`}>
+                <ResumeCard title={item.title} organisation={item.organisation} year={item.year} desc={item.desc} tech={item.tech} />
               </div>
+              
             ))
           }
           
