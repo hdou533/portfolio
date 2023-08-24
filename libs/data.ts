@@ -125,23 +125,20 @@ export const projects = [
     {
         title: "PizzaLover",
         desc: "a pizza shop website made by Next.js and tailwind",
-        demolink: "/",
-        codelink: "/",
-        thumbnail: "/projects/pizzalover.png"
+        demolink: "https://pizza-shop-blue.vercel.app/",
+        codelink: "https://github.com/hdou533/pizza-shop",
+        thumbnail: "/projects/pizzalover.png",
+        tech: ["Next.js", "Tailwind"]
     },
     {
         title: "PizzaLover",
-        desc: "a pizza shop website made by Next.js gaksjhg gna,gn wijkgl amngalkfj  kagkl jlkagj  alkgj lkgaj ",
-        demolink: "/",
-        codelink: "/",
-        thumbnail: "/projects/pizzalover.png"
+        desc: "a pizza shop website made by Next.js and tailwind",
+        demolink: "https://pizza-shop-blue.vercel.app/",
+        codelink: "https://github.com/hdou533/pizza-shop",
+        thumbnail: "/projects/pizzalover.png",
+        tech: ["Next.js", "Tailwind"]
     },
-    {
-        title: "PizzaLover",
-        desc: "a pizza shop website ",
-        demolink: "/",
-        codelink: "/",
-        thumbnail: "/projects/pizzalover.png"
-    },
+
+
 
 ]
