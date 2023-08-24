@@ -43,14 +43,14 @@ export const experience = [
         title: "Software Developer",
         organisation: "SmartLeader",
         year: "2022.06 - 2023.04",
-        desc: "At Smartleader, my role encompasses maintaining and enhancing the online training and development app. I am responsible for tasks such as app maintenance, feature development, debugging, upgrades including PHP version updates, and unit testing.",
+        desc: "At Smartleader, my role encompasses maintaining and enhancing the Persoanl Leader Dashboard and MyTeamPulse app. I am responsible for tasks such as app maintenance, feature development, debugging, upgrades including PHP version updates, and unit testing.",
         tech: ["PHP", "JavaScript", "JQuery","BootSstrap","Unit Testing", "Git", "GitKraken", "MySQL","MAMP","Jira","Scrum"]
     },
     {
-        title: "Digital Marketing Specialist",
+        title: "Digital Marketing Specialist (Volunteer Role)",
         organisation: "New Zealand Business Association",
         year: "2021.10 - 2022.06",
-        desc: "At NZBA, I play a multifaceted role that involves interacting closely with clients to grasp their unique requirements. My responsibilities encompass crafting and building WordPress websites that align with these needs, ensuring a tailored online solution. Additionally, I collaborate seamlessly with colleagues to orchestrate comprehensive digital marketing campaigns, bolstering our clients' digital presence and driving their business growth.",
+        desc: "I play a multifaceted role that involves interacting closely with clients to grasp their unique requirements. My responsibilities encompass crafting and building WordPress websites that align with these needs, ensuring a tailored online solution. Additionally, I collaborate seamlessly with colleagues to orchestrate comprehensive digital marketing campaigns, bolstering our clients' digital presence and driving their business growth.",
         tech: ["WordPress", "JavaScript","CSS","HTML","Digital Marketing","Google SEO"],
     },
     {

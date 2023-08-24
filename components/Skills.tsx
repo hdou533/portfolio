@@ -12,9 +12,9 @@ const Skills = () => {
 
         </div>
       <div className='w-4/5 my-24 overflow-x-auto scrollbar-hide'>
-        <div className='w-max flex justify-center items-center snap-x'>
+        <div className='w-fit flex justify-center items-center'>
         {skills.map(skill => (
-              <div key={skill.title} className='m-8 relative w-24 h-24 snap-center'>
+              <div key={skill.title} className='m-8 relative w-24 h-24'>
                 <Image src={skill.img} layout='fill' alt={skill.title} className='object-contain' />
               </div>
               
