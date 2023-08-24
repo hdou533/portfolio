@@ -131,7 +131,7 @@ export const projects = [
         tech: ["Next.js", "Tailwind"]
     },
     {
-        title: "PizzaLover",
+        title: "PizzaLover2",
         desc: "a pizza shop website made by Next.js and tailwind",
         demolink: "https://pizza-shop-blue.vercel.app/",
         codelink: "https://github.com/hdou533/pizza-shop",

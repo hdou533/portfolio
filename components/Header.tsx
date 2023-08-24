@@ -5,10 +5,10 @@ import Navbar from './Navbar';
 
 const Header = () => {
   return (
-    <div className='text-white bg-background z-10'>
+    <div className='text-white bg-background z-10 sticky'>
       
       <div className='w-full px-8 py-4 flex justify-between items-center gap-8 lg:py-0'>
-        <div className='w-24'>
+        <div className=''>
           <Link href="/"><Image src="/logo-secondary.png" width={24} height={24} alt=''/></Link>
         </div>
         <div className='grow'>

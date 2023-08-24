@@ -15,7 +15,7 @@ const Skills = () => {
         <div className='w-max flex justify-center items-center snap-x'>
         {skills.map(skill => (
               <div key={skill.title} className='m-8 relative w-24 h-24 snap-center'>
-                <Image src={skill.img} fill alt={skill.title} className='object-contain' />
+                <Image src={skill.img} layout='fill' alt={skill.title} className='object-contain' />
               </div>
               
            

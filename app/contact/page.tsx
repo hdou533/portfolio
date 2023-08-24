@@ -25,7 +25,10 @@ const Contact = () => {
       </div>
 
       
-      <ContactForm title={'Get in Touch'}/>
+      <ContactForm title={'Get in Touch'} />
+      <div className='text-center p-8'>
+        <p>Otherwise, feel free to contact me directly via <a href='mailto:sallydou2023@gmail.com' className='hover:text-light-pink italic'>sallydou2023@gmail.com</a></p>
+      </div>
     </div>
   )
 }
