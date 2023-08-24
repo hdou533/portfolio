@@ -124,21 +124,43 @@ export const skills = [
 export const projects = [
     {
         title: "PizzaLover",
-        desc: "a pizza shop website made by Next.js and tailwind",
+        desc: "A e-commerce website made by Next.js and Tailwind",
         demolink: "https://pizza-shop-blue.vercel.app/",
         codelink: "https://github.com/hdou533/pizza-shop",
         thumbnail: "/projects/pizzalover.png",
         tech: ["Next.js", "Tailwind"]
     },
     {
-        title: "PizzaLover2",
-        desc: "a pizza shop website made by Next.js and tailwind",
-        demolink: "https://pizza-shop-blue.vercel.app/",
-        codelink: "https://github.com/hdou533/pizza-shop",
-        thumbnail: "/projects/pizzalover.png",
-        tech: ["Next.js", "Tailwind"]
+        title: "My Portfolio",
+        desc: "Welcome to my personal portfolio website, a digital canvas where I showcase my journey, projects, and skills.",
+        demolink: "https://portfolio-hdou533.vercel.app/",
+        codelink: "https://github.com/hdou533/portfolio",
+        thumbnail: "/projects/portfolio-logo.png",
+        tech: ["Next.js", "Tailwind", "EmaiJS"]
     },
 
 
 
+]
+
+
+export const hobby = [
+    {
+        title: "garden",
+        desc: "Wandering Around in the Garden!",
+        img: "/about/watering-plants.png",
+        colorCode: 'bg-red-100',
+    },
+    {
+        title: "pottery",
+        desc: "See my clay work",
+        img: "/about/pottery-1.png",
+        colorCode: 'bg-orange-100',
+    },
+    {
+        title: "anime",
+        desc: "My Favorite Anime!",
+        img: "/about/otaku.png",
+        colorCode: 'bg-red-100',
+    },
 ]

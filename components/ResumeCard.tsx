@@ -15,9 +15,9 @@ const ResumeCard: React.FC<ResumeCardProps> = ( {title, organisation,year, desc,
       <p className='text-xs'>{organisation}</p>
       <p className='text-xs'>{ year}</p>
       <p className='text-sm  my-4 w-full h-40 overflow-y-auto overscroll-contain scrollbar-hide'>{desc}</p>
-      <div className='text-xs flex gap-1 flex-wrap'>
+      <div className='text-xs flex gap-2 flex-wrap'>
         {tech.map((t, index) => (
-        <span key={`tech_${index}`} className='p-1 bg-light-pink/60 border-grey-100'>{t}</span>
+        <span key={`tech_${index}`} className='p-1 bg-light-pink/70 rounded-sm'>{t}</span>
         ))}
       </div>
     </div>

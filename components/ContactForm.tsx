@@ -110,7 +110,7 @@ const ContactForm = ({title='Contact'}) => {
 
             <button
               type='submit'
-              className='w-full p-2 border uppercase text-lg bg-light-pink rounded-sm border-light-pink hover:bg-secondary'
+              className='text-white w-full p-2 border uppercase text-lg bg-light-pink rounded-sm border-light-pink hover:bg-secondary'
                   >{loading ? "Sending..." : "Send"}
                       </button>
               </form>
