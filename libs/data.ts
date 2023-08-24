@@ -149,18 +149,18 @@ export const hobby = [
         title: "garden",
         desc: "Wandering Around in the Garden!",
         img: "/about/watering-plants.png",
-        colorCode: 'bg-red-100',
+        color: 'red',
     },
     {
         title: "pottery",
         desc: "See my clay work",
         img: "/about/pottery-1.png",
-        colorCode: 'bg-orange-100',
+        color: 'blue',
     },
     {
         title: "anime",
         desc: "My Favorite Anime!",
         img: "/about/otaku.png",
-        colorCode: 'bg-red-100',
+        color: 'red',
     },
 ]

@@ -17,7 +17,7 @@ const About = () => {
       <div className='w-full p-8 flex flex-col justify-center items-center flex-wrap gap-10 sm:flex-row'>
         {hobby.map(item => (
           <Link href={`/about/${item.title}`} key={item.title} >
-            <AboutCard title={item.title} desc={item.desc} img={item.img} colorCode={item.colorCode} />
+            <AboutCard title={item.title} desc={item.desc} img={item.img} color={item.color} />
 
           </Link>
         ))}
