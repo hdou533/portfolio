@@ -2,7 +2,7 @@ import { hobbyGallery } from "@/libs/data"
 import Image from "next/image"
 import Link from "next/link"
 
-const HobbyPage = ({ params }) => {
+const HobbyPage = ({ params } : { params: { group: string } }) => {
     
     const filteredData = hobbyGallery.filter(item => item.group === params.group)
     // console.log(filteredData)
