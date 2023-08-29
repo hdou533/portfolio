@@ -223,13 +223,13 @@ export const hobbyGallery = [
     },
     {
         title: 'demon slayer',
-        img: '/hobby/demon_slayer.JPG',
+        img: '/hobby/demon_slayer.jpg',
         desc: '',
         group: 'anime'
     },
     {
         title: 'fullmetal alchemist',
-        img: '/hobby/fullmetal_alchemist.JPG',
+        img: '/hobby/fullmetal_alchemist.jpg',
         desc: '',
         group: 'anime'
     },
