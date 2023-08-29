@@ -1,17 +1,25 @@
-import React from 'react'
+"use client"
+
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
+
+
+
+
 
 type AboutCardProps = {
+    
     title: string,
     desc: string,
     img: string,
-    color: string,
+    group: string,
 }
 
-const AboutCard: React.FC<AboutCardProps> = ({ title, desc, img, color }) => {
-  
+const AboutCard: React.FC<AboutCardProps> = ({ title, desc, img, group }) => {
+  const router = useRouter()
   return (
-    <div className='w-[260px] h-[320px] relative'>
+    <div className=''>
+      <div className='w-[260px] h-[320px] relative' onClick={() => router.push(`/about/${group}`)}>
       <div className={`w-full h-[50%] bg-orange-100 rounded-t-lg`}></div>
       <div className='w-full h-[50%] bg-btn-blue rounded-b-lg flex justify-center items-center text-center'>
               <h2 className='pt-8'>{ desc }</h2>  
@@ -20,8 +28,13 @@ const AboutCard: React.FC<AboutCardProps> = ({ title, desc, img, color }) => {
         <Image src={img} width={160} height={160} alt={title} />
         
       </div>
+
+      
+      </div>
+      
           
     </div>
+    
   )
 }
 

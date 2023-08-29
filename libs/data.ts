@@ -27,15 +27,7 @@ export const navLinks = [
     },
 ]
 
-export const images = [
-    '/hobby_2.JPG',
-    '/hobby_1.JPG',
-    '/hobby_3.JPG',
-    '/hobby_4.JPG',
-    '/hobby_5.JPG',
-    '/hobby_6.JPG',
-    '/hobby_7.JPG',
-]
+
 
 
 export const experience = [
@@ -43,7 +35,7 @@ export const experience = [
         title: "Software Developer",
         organisation: "SmartLeader",
         year: "2022.06 - 2023.04",
-        desc: "At Smartleader, my role encompasses maintaining and enhancing the Persoanl Leader Dashboard and MyTeamPulse app. I am responsible for tasks such as app maintenance, feature development, debugging, upgrades including PHP version updates, and unit testing.",
+        desc: "At Smartleader, my role encompasses maintaining and enhancing the Personal Leader Dashboard and MyTeamPulse app. I am responsible for tasks such as app maintenance, feature development, debugging, upgrades including PHP version updates, and unit testing.",
         tech: ["PHP", "JavaScript", "JQuery","BootSstrap","Unit Testing", "Git", "GitKraken", "MySQL","MAMP","Jira","Scrum"]
     },
     {
@@ -150,17 +142,95 @@ export const hobby = [
         desc: "Wandering Around in the Garden!",
         img: "/about/watering-plants.png",
         color: 'red',
+        group: "garden",
     },
     {
         title: "pottery",
         desc: "See my clay work",
         img: "/about/pottery-1.png",
         color: 'blue',
+        group: "pottery",
     },
     {
         title: "anime",
         desc: "My Favorite Anime!",
         img: "/about/otaku.png",
         color: 'red',
+        group: "anime",
+    },
+]
+
+export const hobbyGallery = [
+    {
+        title: 'rose1',
+        img: '/hobby/rose_1.JPG',
+        desc: '',
+        group: 'garden'
+    },
+    {
+        title: 'rose2',
+        img: '/hobby/rose_2.JPG',
+        desc: '',
+        group: 'garden'
+    },
+    {
+        title: 'rose3',
+        img: '/hobby/rose_3.JPG',
+        desc: '',
+        group: 'garden'
+    },
+    {
+        title: 'rose4',
+        img: '/hobby/rose_4.JPG',
+        desc: '',
+        group: 'garden'
+    },
+    {
+        title: 'tomato2',
+        img: '/hobby/tomato_1.JPG',
+        desc: '',
+        group: 'garden'
+    },
+    {
+        title: 'pottery1',
+        img: '/hobby/pottery_1.JPG',
+        desc: '',
+        group: 'pottery'
+    },
+    {
+        title: 'pottery2',
+        img: '/hobby/pottery_2.JPG',
+        desc: '',
+        group: 'pottery'
+    },
+    {
+        title: 'pottery3',
+        img: '/hobby/pottery_3.JPG',
+        desc: '',
+        group: 'pottery'
+    },
+    {
+        title: 'pottery4',
+        img: '/hobby/pottery_4.JPG',
+        desc: '',
+        group: 'pottery'
+    },
+    {
+        title: 'pottery5',
+        img: '/hobby/pottery_5.JPG',
+        desc: '',
+        group: 'pottery'
+    },
+    {
+        title: 'demon slayer',
+        img: '/hobby/demon_slayer.JPG',
+        desc: '',
+        group: 'anime'
+    },
+    {
+        title: 'fullmetal alchemist',
+        img: '/hobby/fullmetal_alchemist.JPG',
+        desc: '',
+        group: 'anime'
     },
 ]
