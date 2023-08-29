@@ -7,7 +7,7 @@ const HobbyPage = ({ params } : { params: { group: string } }) => {
     const filteredData = hobbyGallery.filter(item => item.group === params.group)
     // console.log(filteredData)
     return (
-        <div className="w-full min-h-[calc(100vh-317px)] py-16 px-8">
+        <div className="w-full min-h-[calc(100vh-317px)] py-16 px-8 lg:w-[80%] 2xl:w-[60%]">
             <div>
                 <Link href='/about'><span className="hover:text-light-pink underline underline-offset-8"> &larr; Go Back to About</span></Link>
             </div>
