@@ -124,7 +124,7 @@ export const projects = [
     },
     {
         title: "My Portfolio",
-        desc: "Welcome to my personal portfolio website, a digital canvas where I showcase my journey, projects, and skills.",
+        desc: "Welcome to my personal portfolio website, a static website where I showcase my journey, projects, and skills.",
         demolink: "https://portfolio-hdou533.vercel.app/",
         codelink: "https://github.com/hdou533/portfolio",
         thumbnail: "/projects/portfolio-logo.png",
