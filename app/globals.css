@@ -23,16 +23,23 @@
 }
 
 
-/* For Webkit-based browsers (Chrome, Safari and Opera) */
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
+
+.skill-scrollbar::-webkit-scrollbar {
+  width:8px;
 }
 
-/* For IE, Edge and Firefox */
-.scrollbar-hide {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+
+.skill-scrollbar::-webkit-scrollbar-thumb {
+  background: #191d3a;
+  border-radius: 8px;
+  
 }
+
+.skill-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(236,89,144,0.8);
+}
+
+
 
 body {
   color: rgb(var(--foreground-rgb));

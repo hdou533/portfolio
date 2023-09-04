@@ -11,7 +11,7 @@ const Skills = () => {
         <h1 className='text-3xl font-bold underline decoration-secondary underline-offset-8 uppercase mt-8 lg:text-5xl'>Skills</h1>
 
         </div>
-      <div className='w-4/5 my-24 overflow-x-auto scrollbar-hide'>
+      <div className='w-4/5 my-24 overflow-x-auto skill-scrollbar pb-12'>
         <div className='w-fit flex justify-center items-center'>
         {skills.map(skill => (
               <div key={skill.title} className='m-8 relative w-24 h-24'>
