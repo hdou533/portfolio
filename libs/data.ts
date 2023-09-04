@@ -63,6 +63,10 @@ export const experience = [
 
 export const skills = [
     {
+        title: 'typescript',
+        img: '/skills/typescript.png',
+    },
+    {
         title: 'javascript',
         img: '/skills/javascript.png',
     },
