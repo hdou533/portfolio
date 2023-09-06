@@ -40,7 +40,7 @@ const Resume = () => {
           <Image src="/ghost-regular-48.png" width={48} height={48} alt='' />
           </div> */}
           
-          <a href="/pdfs/cv-sallydou.pdf" className='underline decoration-pink-600 underline-offset-8'>Download CV</a>
+          <a href="/pdfs/CV-Sallydou.pdf" className='underline decoration-pink-600 underline-offset-8'>Download CV</a>
         </div>
         </div>
     </div>

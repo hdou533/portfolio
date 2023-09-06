@@ -120,8 +120,8 @@ export const skills = [
 export const projects = [
     {
         title: "PizzaLover",
-        desc: "A e-commerce website made by Next.js and Tailwind",
-        demolink: "https://pizza-shop-blue.vercel.app/",
+        desc: "A frontend project developed using Next.js and Tailwind",
+        demolink: "https://pizzalover.vercel.app/",
         codelink: "https://github.com/hdou533/pizza-shop",
         thumbnail: "/projects/pizzalover.png",
         tech: ["Next.js", "Tailwind"]
