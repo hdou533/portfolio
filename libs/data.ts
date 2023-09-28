@@ -70,7 +70,7 @@ export const experience = [
     title: "IT Support",
     organisation: "Siaola - Lifewise NZ",
     year: "2021.03 - 2021.05",
-    desc: "In my role, I provide technical support and training to SIAOLA, a Charitable Trust supporting education, health, and socio-development for Togan communities in New Zealand. I assist them in effectively using their Content Management System (CMS) application. This involves guiding them in creating, editing, and managing data, handling media, and ensuring security measures. Through training sessions and ongoing support, I empower SIAOLA's team to confidently manage their system and make the most of their online presence.",
+    desc: "In my role, I provide technical support and training to SIAOLA, a Charitable Trust supporting education, health, and socio-development for Togan communities in New Zealand. I assist them in effectively using their Client Management System application. This involves guiding them in creating, editing, and managing data, handling media, and ensuring security measures. Through training sessions and ongoing support, I empower SIAOLA's team to confidently manage their system and make the most of their online presence.",
     tech: ["CMS", "Noted CMS", "Power BI", "Training"],
   },
   {
