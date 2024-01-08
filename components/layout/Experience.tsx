@@ -48,6 +48,7 @@ const Experience = () => {
 
       <Link
         href={"/pdfs/CV-SallyDou.pdf"}
+        locale={false}
         className="border text-xl md:text-3xl px-8 py-4 rounded-lg mb-20 hover:border-secondary hover:shadow-secondary/50 shadow-lg hover:text-secondary transition-colors"
       >
         CHECK OUT MY RÉSUMÉ!
