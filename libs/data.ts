@@ -2,6 +2,7 @@ type navLinks = {
   id: string;
   title: string;
   address: string;
+  icon: string;
 }[];
 
 export const navLinks = [
@@ -9,21 +10,25 @@ export const navLinks = [
     id: "home",
     title: "Home",
     address: "/",
+    icon: "/house-chimney-blank.png",
   },
   {
     id: "about",
     title: "About",
-    address: "/about",
+    address: "/#about",
+    icon: "/user-robot.png",
   },
   {
     id: "resume",
     title: "Resume",
-    address: "/resume",
+    address: "/pdfs/CV-SallyDou.pdf",
+    icon: "/file-invoice.png",
   },
   {
     id: "contact",
     title: "Contact",
-    address: "/contact",
+    address: "/#contact",
+    icon: "/comment-dots.png",
   },
 ];
 
@@ -84,14 +89,6 @@ export const experience = [
 
 export const skills = [
   {
-    title: "typescript",
-    img: "/skills/typescript.png",
-  },
-  {
-    title: "javascript",
-    img: "/skills/javascript.png",
-  },
-  {
     title: "react",
     img: "/skills/reactjs.png",
   },
@@ -104,8 +101,12 @@ export const skills = [
     img: "/skills/tailwind.png",
   },
   {
-    title: "github",
-    img: "/skills/github.svg",
+    title: "mongodb",
+    img: "/skills/mongodb.png",
+  },
+  {
+    title: "javascript",
+    img: "/skills/javascript.png",
   },
   {
     title: "css",
@@ -116,10 +117,6 @@ export const skills = [
     img: "/skills/html.png",
   },
   {
-    title: "git",
-    img: "/skills/git.png",
-  },
-  {
     title: "nodejs",
     img: "/skills/nodejs.png",
   },
@@ -127,9 +124,39 @@ export const skills = [
     title: "php",
     img: "/skills/php.png",
   },
+
   {
     title: "postgresql",
     img: "/skills/postgresql.png",
+  },
+  {
+    title: "jquery",
+    img: "/skills/jquery.png",
+  },
+  {
+    title: "bootstrap",
+    img: "/skills/bootstrap.png",
+  },
+  {
+    title: "github",
+    img: "/skills/github.svg",
+  },
+  {
+    title: "git",
+    img: "/skills/git.png",
+  },
+  {
+    title: "typescript",
+    img: "/skills/typescript.png",
+  },
+  {
+    title: "python",
+    img: "/skills/python.png",
+  },
+
+  {
+    title: "vscode",
+    img: "/skills/vscode.png",
   },
   {
     title: "jira",
@@ -137,14 +164,25 @@ export const skills = [
   },
 ];
 
+export const companies = [
+  {
+    title: "smartleader",
+    img: "/Smartleader-team-development-academy-logo.jpg",
+  },
+  // {
+  //   title: "nzba",
+  //   img: "/nzba.png",
+  // },
+];
+
 export const projects = [
   {
-    title: "PizzaLover",
-    desc: "A frontend project developed using Next.js and Tailwind",
-    demolink: "https://pizzalover.vercel.app/",
-    codelink: "https://github.com/hdou533/pizza-shop",
-    thumbnail: "/projects/pizzalover.png",
-    tech: ["Next.js", "Tailwind", "React", "Zustand"],
+    title: "Donuts shop(underdeveloped)",
+    desc: "A fullstack project developed with Next.js, mongodb, nextuth and Tailwind",
+    demolink: "https://donut-shop-eight.vercel.app/",
+    codelink: "https://github.com/hdou533/donut-shop",
+    thumbnail: "/projects/donuts-shop.png",
+    tech: ["Next.js", "MongoDB", "NextAuth", "Tailwind"],
   },
   {
     title: "My Portfolio",
@@ -153,104 +191,5 @@ export const projects = [
     codelink: "https://github.com/hdou533/portfolio",
     thumbnail: "/projects/portfolio-logo.png",
     tech: ["Next.js", "Tailwind", "React", "EmaiJS"],
-  },
-];
-
-export const hobby = [
-  {
-    title: "garden",
-    desc: "Wandering Around in the Garden!",
-    img: "/about/watering-plants.png",
-    color: "red",
-    group: "garden",
-  },
-  {
-    title: "pottery",
-    desc: "See my clay work",
-    img: "/about/pottery-1.png",
-    color: "blue",
-    group: "pottery",
-  },
-  {
-    title: "anime",
-    desc: "My Favorite Anime!",
-    img: "/about/otaku.png",
-    color: "red",
-    group: "anime",
-  },
-];
-
-export const hobbyGallery = [
-  {
-    title: "rose1",
-    img: "/hobby/rose_1.JPG",
-    desc: "",
-    group: "garden",
-  },
-  {
-    title: "rose2",
-    img: "/hobby/rose_2.JPG",
-    desc: "",
-    group: "garden",
-  },
-  {
-    title: "rose3",
-    img: "/hobby/rose_3.JPG",
-    desc: "",
-    group: "garden",
-  },
-  {
-    title: "rose4",
-    img: "/hobby/rose_4.JPG",
-    desc: "",
-    group: "garden",
-  },
-  {
-    title: "tomato2",
-    img: "/hobby/tomato_1.JPG",
-    desc: "",
-    group: "garden",
-  },
-  {
-    title: "pottery1",
-    img: "/hobby/pottery_1.JPG",
-    desc: "",
-    group: "pottery",
-  },
-  {
-    title: "pottery2",
-    img: "/hobby/pottery_2.JPG",
-    desc: "",
-    group: "pottery",
-  },
-  {
-    title: "pottery3",
-    img: "/hobby/pottery_3.JPG",
-    desc: "",
-    group: "pottery",
-  },
-  {
-    title: "pottery4",
-    img: "/hobby/pottery_4.JPG",
-    desc: "",
-    group: "pottery",
-  },
-  {
-    title: "pottery5",
-    img: "/hobby/pottery_5.JPG",
-    desc: "",
-    group: "pottery",
-  },
-  {
-    title: "demon slayer",
-    img: "/hobby/demon_slayer.jpg",
-    desc: "",
-    group: "anime",
-  },
-  {
-    title: "fullmetal alchemist",
-    img: "/hobby/fullmetal_alchemist.jpg",
-    desc: "",
-    group: "anime",
   },
 ];
