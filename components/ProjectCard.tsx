@@ -24,7 +24,7 @@ const ProjectCard: React.FC<CardProps> = ({
       <div className="relative w-[80%] h-[200px] sm:flex-1 ">
         <Image
           src={thumbnail}
-          layout="fill"
+          fill
           alt=""
           className="object-cover opacity-82 rounded-lg"
         />

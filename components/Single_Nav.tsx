@@ -6,9 +6,9 @@ const SingleNav = ({
   pageLink,
   pageIcon,
 }: {
-  pageTitle: String;
-  pageLink: String;
-  pageIcon: String;
+  pageTitle: string;
+  pageLink: string;
+  pageIcon: string;
 }) => {
   return (
     <Link
