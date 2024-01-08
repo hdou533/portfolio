@@ -13,6 +13,7 @@ const SingleNav = ({
   return (
     <Link
       href={pageLink}
+      locale={false}
       className="flex-1 w-full h-full flex flex-col items-center justify-center gap-1 "
     >
       <div className="lg:hidden">
