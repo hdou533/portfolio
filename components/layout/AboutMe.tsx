@@ -10,7 +10,7 @@ const AboutMeSection = () => {
         <h1 className="text-3xl font-bold underline decoration-secondary underline-offset-8 uppercase my-8 lg:text-5xl">
           about me
         </h1>
-        <p className=" leading-relaxed">
+        <p className=" leading-relaxed md:text-xl xl:text-2xl">
           Hey! I&apos;m Sally, a web developer with a passion for front-end
           development and design. Currently, I&apos;m pursuing my second
           master&apos;s degree at Lincoln University, building upon my
@@ -19,7 +19,7 @@ const AboutMeSection = () => {
           the <span className="text-light-pink">University of Auckland</span>.
         </p>
 
-        <p className=" leading-relaxed">
+        <p className=" leading-relaxed md:text-xl xl:text-2xl">
           My goal is to craft applications that not only operate with optimal
           efficiency but also provide users with an enjoyable experience.
         </p>

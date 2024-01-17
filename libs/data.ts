@@ -60,7 +60,7 @@ export const experience = [
     tech: ["WordPress", "JavaScript", "CSS", "HTML", "Divi Theme"],
   },
   {
-    title: "Digital Marketing Specialist (Volunteer Role)",
+    title: "Digital Marketing Specialist",
     organisation: "New Zealand Business Association",
     year: "2021.10 - 2022.03",
     desc: "I collaborate seamlessly with colleagues to orchestrate comprehensive digital marketing campaigns, bolstering our clients' digital presence and driving their business growth.",
@@ -177,7 +177,7 @@ export const companies = [
 
 export const projects = [
   {
-    title: "Donuts shop(underdeveloped)",
+    title: "Donuts shop",
     desc: "A fullstack project developed with Next.js, mongodb, nextuth and Tailwind",
     demolink: "https://donut-shop-eight.vercel.app/",
     codelink: "https://github.com/hdou533/donut-shop",

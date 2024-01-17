@@ -5,7 +5,7 @@ import SingleNav from "./Single_Nav";
 const Navbar = () => {
   return (
     <div className="w-full h-12 left-0 bottom-0 bg-btn-blue text-white flex text-[0.6rem] fixed lg:justify-center lg:text-sm lg:static xl:text-base z-10 lg:z-0">
-      <nav className="w-full flex justify-around items-center bg-color-btn-blue lg:w-3/4 ">
+      <nav className="w-full flex justify-around items-center bg-color-btn-blue lg:w-3/4 lg:text-lg">
         {navLinks.map((navLink) => (
           <SingleNav
             key={navLink.id}
