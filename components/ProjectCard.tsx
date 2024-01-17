@@ -29,23 +29,25 @@ const ProjectCard: React.FC<CardProps> = ({
           className="object-cover opacity-82 rounded-lg"
         />
       </div>
-      <div className="flex flex-col w-[80%] justify-between sm:flex-1 sm:h-[80%]">
+      <div className="flex flex-col max-w-[80%] justify-between sm:flex-1 sm:h-[80%]">
         <div className="flex flex-col gap-2">
-          <h2 className="font-bold text-lg text-secondary">{title}</h2>
-          <p className="text-sm text-white/75">{desc}</p>
+          <h2 className="font-bold text-lg text-secondary xl:text-2xl">
+            {title}
+          </h2>
+          <p className="text-sm text-gray-300 ">{desc}</p>
 
           <div className="text-sm text-white/75 underline underline-offset-4">
             <a
               href={demolink}
               target="_blank"
-              className=" hover:text-light-pink mr-4"
+              className=" hover:text-light-pink mr-4 md:text-lg"
             >
               <span>demo</span>
             </a>
             <a
               href={codelink}
               target="_blank"
-              className=" hover:text-light-pink mr-4"
+              className=" hover:text-light-pink mr-4 md:text-lg"
             >
               <span>code</span>
             </a>

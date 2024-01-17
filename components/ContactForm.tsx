@@ -74,7 +74,7 @@ const ContactForm = ({ title = "Get in touch" }) => {
         <h1 className=" text-3xl lg:text-5xl font-bold underline decoration-secondary underline-offset-8 uppercase">
           {title.toUpperCase()}
         </h1>
-        <p>
+        <p className="md:text-lg">
           Whether you have an idea for a project or just want to chat, feel free
           to shoot me an email!
         </p>

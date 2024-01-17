@@ -11,7 +11,7 @@ const Experience = () => {
           Experience
         </h1>
       </div>
-      <div className="skill-scrollbar pb-12 flex flex-col justify-center gap-16 md:flex-row md:gap-32 ">
+      <div className="skill-scrollbar pb-12 flex flex-col justify-center gap-16 md:flex-row md:gap-32 md:text-xl xl:text-2xl">
         <div className="grow flex flex-col gap-8 items-center">
           <p className="uppercase text-center">
             Some technologies I&apos;ve worked with:

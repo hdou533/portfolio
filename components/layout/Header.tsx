@@ -5,7 +5,7 @@ import Navbar from "../Navbar";
 
 const Header = () => {
   return (
-    <div id="header" className="text-white bg-background z-10 sticky">
+    <div id="header" className="text-white bg-background z-10 sticky ">
       <div className="w-full px-8 py-4 flex  items-center gap-8 lg:py-0">
         <div className="w-24 md:flex md:justify-center">
           <Link href="/">
