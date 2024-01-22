@@ -21,7 +21,7 @@ export const navLinks = [
   {
     id: "resume",
     title: "Resume",
-    address: "/pdfs/cv_sallydou.pdf",
+    address: "/pdfs/v2-cv-sallydou.pdf",
     icon: "/file-invoice.png",
   },
   {
@@ -29,61 +29,6 @@ export const navLinks = [
     title: "Contact",
     address: "/#contact",
     icon: "/comment-dots.png",
-  },
-];
-
-export const experience = [
-  {
-    title: "Software Developer",
-    organisation: "SmartLeader",
-    year: "2022.06 - 2023.04",
-    desc: "At Smartleader, my role encompasses maintaining and enhancing the Personal Leader Dashboard and MyTeamPulse app. I am responsible for tasks such as app maintenance, feature development, debugging, upgrades including PHP version updates, and unit testing.",
-    tech: [
-      "PHP",
-      "JavaScript",
-      "JQuery",
-      "BootSstrap",
-      "Unit Testing",
-      "Git",
-      "GitKraken",
-      "MySQL",
-      "MAMP",
-      "Jira",
-      "Scrum",
-    ],
-  },
-  {
-    title: "Web Developer",
-    organisation: "New Zealand Business Association",
-    year: "2022.03 - 2022.06",
-    desc: "My responsibilities encompass crafting and building WordPress websites that align with these needs, ensuring a tailored online solution. ",
-    tech: ["WordPress", "JavaScript", "CSS", "HTML", "Divi Theme"],
-  },
-  {
-    title: "Digital Marketing Specialist",
-    organisation: "New Zealand Business Association",
-    year: "2021.10 - 2022.03",
-    desc: "I collaborate seamlessly with colleagues to orchestrate comprehensive digital marketing campaigns, bolstering our clients' digital presence and driving their business growth.",
-    tech: [
-      "Digital Marketing",
-      "Google SEO",
-      "Business Promotion",
-      "Data Management",
-    ],
-  },
-  {
-    title: "IT Support",
-    organisation: "Siaola - Lifewise NZ",
-    year: "2021.03 - 2021.05",
-    desc: "In my role, I provide technical support and training to SIAOLA, a Charitable Trust supporting education, health, and socio-development for Togan communities in New Zealand. I assist them in effectively using their Client Management System application. This involves guiding them in creating, editing, and managing data, handling media, and ensuring security measures. Through training sessions and ongoing support, I empower SIAOLA's team to confidently manage their system and make the most of their online presence.",
-    tech: ["CMS", "Noted CMS", "Power BI", "Training"],
-  },
-  {
-    title: "Master of Information Technology",
-    organisation: "University of Auckland",
-    year: "2019.07 - 2021.06",
-    desc: "During my Master's degree in IT, I refined my skills, focusing on key areas such as data analysis, data modeling, and security. These specialized proficiencies have equipped me with a comprehensive understanding of crucial aspects within the IT landscape.",
-    tech: ["Python", "scikit-learn", "Data Modeling"],
   },
 ];
 
