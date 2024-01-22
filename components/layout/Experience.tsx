@@ -1,5 +1,5 @@
 import React from "react";
-import { companies, skills } from "@/libs/data";
+import { companies, navLinks, skills } from "@/libs/data";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -47,7 +47,7 @@ const Experience = () => {
       </div>
 
       <a
-        href={"/pdfs/cv_sallydou.pdf"}
+        href={navLinks[2]["address"]}
         target="_blank"
         className="border text-xl md:text-3xl px-8 py-4 rounded-lg mb-20 hover:border-secondary hover:shadow-secondary/50 shadow-lg hover:text-secondary transition-colors"
       >
