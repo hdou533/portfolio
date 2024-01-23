@@ -5,6 +5,11 @@ type navLinks = {
   icon: string;
 }[];
 
+const SIZE = {
+  small: 48,
+  large: 60,
+};
+
 export const navLinks = [
   {
     id: "home",
@@ -34,78 +39,97 @@ export const navLinks = [
 
 export const skills = [
   {
-    title: "react",
-    img: "/skills/reactjs.png",
-  },
-  {
     title: "nextjs",
     img: "/skills/nextjs.svg",
+    size: SIZE.large,
   },
   {
     title: "tailwind",
     img: "/skills/tailwind.png",
-  },
-  {
-    title: "mongodb",
-    img: "/skills/mongodb.png",
-  },
-  {
-    title: "javascript",
-    img: "/skills/javascript.png",
-  },
-  {
-    title: "css",
-    img: "/skills/css.png",
-  },
-  {
-    title: "html5",
-    img: "/skills/html.png",
+    size: SIZE.large,
   },
   {
     title: "nodejs",
     img: "/skills/nodejs.png",
+    size: SIZE.large,
   },
+  {
+    title: "mongodb",
+    img: "/skills/mongodb.png",
+    size: SIZE.large,
+  },
+  {
+    title: "react",
+    img: "/skills/reactjs.png",
+    size: SIZE.small,
+  },
+  {
+    title: "javascript",
+    img: "/skills/javascript.png",
+    size: SIZE.large,
+  },
+  {
+    title: "css",
+    img: "/skills/css.png",
+    size: SIZE.large,
+  },
+  {
+    title: "html5",
+    img: "/skills/html.png",
+    size: SIZE.large,
+  },
+
   {
     title: "php",
     img: "/skills/php.png",
+    size: SIZE.large,
   },
 
   {
     title: "postgresql",
     img: "/skills/postgresql.png",
+    size: SIZE.large,
   },
   {
     title: "jquery",
     img: "/skills/jquery.png",
+    size: SIZE.small,
   },
   {
     title: "bootstrap",
     img: "/skills/bootstrap.png",
+    size: SIZE.large,
   },
   {
     title: "github",
     img: "/skills/github.svg",
+    size: SIZE.small,
   },
   {
     title: "git",
     img: "/skills/git.png",
+    size: SIZE.large,
   },
   {
     title: "typescript",
     img: "/skills/typescript.png",
+    size: SIZE.large,
   },
   {
     title: "python",
     img: "/skills/python.png",
+    size: SIZE.large,
   },
 
   {
     title: "vscode",
     img: "/skills/vscode.png",
+    size: SIZE.large,
   },
   {
     title: "jira",
     img: "/skills/jira.png",
+    size: SIZE.small,
   },
 ];
 

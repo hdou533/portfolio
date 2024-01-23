@@ -21,8 +21,8 @@ const Experience = () => {
               <div key={skill.title} className="">
                 <Image
                   src={skill.img}
-                  width={60}
-                  height={60}
+                  width={skill.size}
+                  height={skill.size}
                   alt={skill.title}
                 />
               </div>
