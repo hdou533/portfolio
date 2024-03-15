@@ -26,7 +26,7 @@ export const navLinks = [
   {
     id: "resume",
     title: "Resume",
-    address: "/pdfs/v2-cv-sallydou.pdf",
+    address: "/pdfs/cv-sally-202403.pdf",
     icon: "/file-invoice.png",
   },
   {
