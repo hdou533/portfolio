@@ -36,21 +36,29 @@ const ProjectCard: React.FC<CardProps> = ({
             {desc}
           </p>
 
-          <div className="text-sm text-white/75 underline underline-offset-4">
-            <a
-              href={demolink}
-              target="_blank"
-              className=" hover:text-light-pink mr-4 md:text-lg"
-            >
-              <span>demo</span>
-            </a>
-            <a
-              href={codelink}
-              target="_blank"
-              className=" hover:text-light-pink mr-4 md:text-lg"
-            >
-              <span>code</span>
-            </a>
+          <div className="text-sm text-white/75 ">
+            {demolink ? (
+              <a
+                href={demolink}
+                target="_blank"
+                className=" hover:text-light-pink mr-4 md:text-lg underline underline-offset-4"
+              >
+                <span>demo</span>
+              </a>
+            ) : (
+              <span className="text-gray-500 mr-4 md:text-lg">demo</span>
+            )}
+            {codelink ? (
+              <a
+                href={codelink}
+                target="_blank"
+                className=" hover:text-light-pink mr-4 md:text-lg underline underline-offset-4"
+              >
+                <span>code</span>
+              </a>
+            ) : (
+              <span className="text-gray-500 mr-4 md:text-lg">code</span>
+            )}
           </div>
         </div>
 
