@@ -4,9 +4,22 @@ const CONTENTFUL_API_SPACE_ID = process.env.NEXT_PUBLIC_CONTENTFUL_API_SPACE_ID;
 const CONTENTFUL_API_ACCESS_TOKEN =
   process.env.NEXT_PUBLIC_CONTENTFUL_API_ACCESS_TOKEN;
 
-console.log("SPACE ID:", CONTENTFUL_API_SPACE_ID); // Log the URL
-console.log("API Token:", CONTENTFUL_API_ACCESS_TOKEN);
-
+type ProjectCollectionResponse = {
+  projectCollection: {
+    items: Array<{
+      _id: string;
+      title: string;
+      description: string;
+      tags: string[];
+      demoUrl: string;
+      codeUrl: string;
+      cover: {
+        fileName: string;
+        url: string;
+      };
+    }>;
+  };
+};
 export const fetchProjects = async () => {
   const client = new GraphQLClient(
     `https://graphql.contentful.com/content/v1/spaces/${CONTENTFUL_API_SPACE_ID}`,
@@ -36,6 +49,6 @@ export const fetchProjects = async () => {
     }
   `;
 
-  const data = await client.request(query);
+  const data: ProjectCollectionResponse = await client.request(query);
   return data?.projectCollection?.items;
 };
