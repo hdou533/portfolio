@@ -23,7 +23,7 @@ const Header = () => {
               width={20}
               height={20}
               alt=""
-              className="hover:scale-110"
+              className="transition-all duration-300 ease-in-out hover:scale-110"
             />
           </a>
           <a href="https://www.instagram.com/sallydddous/">
@@ -32,7 +32,7 @@ const Header = () => {
               width={20}
               height={20}
               alt=""
-              className="hover:scale-110"
+              className="transition-all duration-300 ease-in-out hover:scale-110"
             />
           </a>
           <a href="https://www.linkedin.com/in/hongnan-dou/">
@@ -41,7 +41,7 @@ const Header = () => {
               width={24}
               height={24}
               alt=""
-              className="hover:scale-110"
+              className="transition-all duration-300 ease-in-out hover:scale-110"
             />
           </a>
         </div>
