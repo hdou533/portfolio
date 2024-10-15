@@ -18,7 +18,7 @@ const ProjectCard: React.FC<CardProps> = ({
   tags,
 }) => {
   return (
-    <div className="w-full h-[520px] flex flex-col justify-center items-center rounded-lg sm:flex-row sm:w-[520px] sm:h-[320px]  bg-btn-blue drop-shadow-md gap-4 sm:px-8 sm:gap-8 hover:-translate-y-2">
+    <div className="w-full h-[520px] flex flex-col justify-center items-center rounded-lg sm:flex-row sm:w-[520px] sm:h-[320px]  bg-btn-blue drop-shadow-md gap-4 sm:px-8 sm:gap-8 transition-all duration-300 ease-in-out hover:-translate-y-2">
       <div className="relative w-[80%] h-[200px] sm:flex-1 ">
         <Image
           src={coverUrl}
@@ -32,7 +32,9 @@ const ProjectCard: React.FC<CardProps> = ({
           <h2 className="font-bold text-lg text-secondary xl:text-2xl">
             {title}
           </h2>
-          <p className="text-sm text-gray-300 ">{desc}</p>
+          <p className="text-sm text-gray-300 h-16 overflow-y-auto scrollbar-hide">
+            {desc}
+          </p>
 
           <div className="text-sm text-white/75 underline underline-offset-4">
             <a

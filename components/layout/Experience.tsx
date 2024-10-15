@@ -49,7 +49,7 @@ const Experience = () => {
       <a
         href={navLinks[2]["address"]}
         target="_blank"
-        className="border text-xl md:text-3xl px-8 py-4 rounded-lg mb-20 hover:border-secondary hover:shadow-secondary/50 shadow-lg hover:text-secondary transition-colors"
+        className="border text-xl md:text-3xl px-8 py-4 rounded-lg mb-20 transition-all duration-300 ease-in-out hover:border-secondary hover:shadow-secondary/50 shadow-lg hover:text-secondary"
       >
         CHECK OUT MY RÉSUMÉ!
       </a>
